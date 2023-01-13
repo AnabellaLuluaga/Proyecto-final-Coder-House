@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul li {
+    list-style: none;
+
+}
+
+/* --------------header--------*/
+header {
+    background-color: rgb(10, 32, 10);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.animacion:hover {
+    transition-duration: 1s;
+    color: rgb(23, 207, 23);
+}
+
+/*  ------------ main---------*/
+
+main {
+    background-color: rgb(10, 32, 10);
+}
+
+
+
+
+/*--------footer---------------*/
+
+.container {
+    background-color: rgb(10, 32, 10);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    background-color: rgb(10, 32, 10);
+}
+
+.home h4 {
+    text-align: center;
+}
+
+/*================================APERITIVOS============================*/
+
+/*-----------header-----------------*/
+header {
+    background-color: rgb(10, 32, 10);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.animacion:hover {
+    transition-duration: 1s;
+    color: rgb(23, 207, 23);
+}
+
+
+/*---------main--------------------*/
+main {
+    background-color: rgb(23, 207, 23);
+}
+
+main .contenedor {
+    display: flex;
+    background-color: rgb(10, 32, 10);
+    gap: 10px;
+    justify-content: center;
+    height: 80vh;
+}
+
+.aperitivos {
+    width: 350px;
+    height: 3500px;
+}
+
+main h2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(10, 32, 10);
+
+}
+
+/*---------------footer--------------------*/
+.container {
+    background-color: rgb(10, 32, 10);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    background-color: rgb(10, 32, 10);
+}
+
+.home h4 {
+    text-align: center;
+}
+
+/*=======================DESTILADOS==============================*/
+
+/*--------------header-----------------------*/
+header {
+    background-color: rgb(10, 32, 10);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.animacion:hover {
+    transition-duration: 1s;
+    color: rgb(23, 207, 23);
+}
+
+/*------------------main---------------*/
+main .destilados {
+    background-color: white;
+
+}
+
+
+
+/*----------------footer----------------------*/
+footer .destilados {
+    background-color: rgb(10, 32, 10);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    background-color: rgb(10, 32, 10);
+}
+
+.home h4 {
+    text-align: center;
+
+
+    /*====================VINOS Y ESPUMANTES======================*/
+
+    /*-----------------header---------------------------*/
+    
