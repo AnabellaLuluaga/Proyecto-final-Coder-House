@@ -1,8 +1,17 @@
+@keyframes entrada-por-la-derecha {
+    0%{
+        transform: translateX(2000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'ABeeZee', sans-serif; 
 
 }
 
@@ -18,6 +27,7 @@ ul li {
 }
 
 /* --------------header--------*/
+
 header {
     background-color: rgb(10, 32, 10);
     color: white;
@@ -27,6 +37,7 @@ header {
     align-items: center;
     text-align: center;
     font-weight: bold;
+   
 }
 
 header nav ul {
@@ -39,24 +50,47 @@ header nav ul {
     color: rgb(23, 207, 23);
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /*  ------------ main---------*/
 
 main {
     background-color: rgb(10, 32, 10);
 }
 
-
-
+.hero{
+    background-image: url("https://i.pinimg.com/originals/4f/6f/d1/4f6fd184dd217d69a379af0c080c2056.jpg" );
+    min-height: 80vh;
+    padding: 20vh 10vw; 
+    display: flex;
+    justify-content: flex-end;
+}
+ .hero h1{
+  
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Moon Dance', cursive;
+    font-weight: bold;
+    color: white;
+ }
+ .hero-content{
+    animation-name: entrada-por-la-derecha;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+    width: 50%;
+ }
 
 /*--------footer---------------*/
 
-.container {
+.contenedor {
     background-color: rgb(10, 32, 10);
     color: white;
     padding: 25px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+ 
 
 }
 
@@ -64,9 +98,7 @@ footer {
     background-color: rgb(10, 32, 10);
 }
 
-.home h4 {
-    text-align: center;
-}
+
 
 /*================================APERITIVOS============================*/
 
@@ -94,8 +126,10 @@ header nav ul {
 
 
 /*---------main--------------------*/
-main {
-    background-color: rgb(23, 207, 23);
+h1{
+    font-family: 'Moon Dance', cursive;
+    color: aliceblue;
+    font-size: 6rem;
 }
 
 main .contenedor {
@@ -186,9 +220,17 @@ footer {
 
 .home h4 {
     text-align: center;
+}
 
 
     /*====================VINOS Y ESPUMANTES======================*/
 
     /*-----------------header---------------------------*/
     
+
+
+
+
+
+
+
