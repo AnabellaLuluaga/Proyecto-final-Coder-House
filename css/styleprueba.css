@@ -23,6 +23,13 @@ a {
 
 ul li {
     list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -42,7 +49,9 @@ header {
 
 header nav ul {
     display: flex;
+    /* flex-direction: column; */
     gap: 20px;
+    align-items: center;
 }
 
 .animacion:hover {
@@ -66,6 +75,7 @@ main {
     padding: 20vh 10vw; 
     display: flex;
     justify-content: flex-end;
+    color: white;
 }
  .hero h1{
   
@@ -98,7 +108,13 @@ footer {
     background-color: rgb(10, 32, 10);
 }
 
-
+.icono{
+    color: greenyellow;
+    font-size: 2rem;
+}
+.bi-instagram{
+    color: red;
+}
 
 /*================================APERITIVOS============================*/
 
@@ -352,8 +368,17 @@ footer {
     background-color: rgb(10, 32, 10);
 }
 
-
-
+@media screen and (max-width:700px){
+    header nav ul {
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+    }
+    .hero-content{
+width: 100%;
+    }
+}
 
 
 
